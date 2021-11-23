@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using Tasks._9._Palindrome_Number;
+using Tasks.PalindromeNumber;
 
 namespace Tests.PalindromeNumberTests
 {
