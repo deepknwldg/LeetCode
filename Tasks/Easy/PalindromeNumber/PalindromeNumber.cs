@@ -1,4 +1,4 @@
-﻿namespace Tasks.PalindromeNumber
+﻿namespace Tasks.Easy.PalindromeNumber
 {
     public static class PalindromeNumber
     {

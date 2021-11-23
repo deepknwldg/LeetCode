@@ -1,4 +1,4 @@
-﻿namespace Tasks.RomanToInteger
+﻿namespace Tasks.Easy.RomanToInteger
 {
     public static class RomanToInteger
     {

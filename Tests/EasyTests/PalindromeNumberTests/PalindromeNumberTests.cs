@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using Tasks.PalindromeNumber;
+using Tasks.Easy.PalindromeNumber;
 
-namespace Tests.PalindromeNumberTests
+namespace Tests.Easy.PalindromeNumberTests
 {
     public class Tests
     {

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Tasks.RomanToInteger;
+using Tasks.Easy.RomanToInteger;
 
-namespace Tests.RomanToIntegerTests
+namespace Tests.Easy.RomanToIntegerTests
 {
     public class RomanToIntegerTests
     {
