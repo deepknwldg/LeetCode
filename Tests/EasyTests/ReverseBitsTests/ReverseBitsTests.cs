@@ -10,18 +10,26 @@ namespace Tests.EasyTests.ReverseBitsTests
 {
     internal class ReverseBitsTests
     {
+        private  uint value = Convert.ToUInt32(43261596);
+
         [SetUp]
         public void Setup()
         {
         }
 
         [Test]
-        [TestCase(4294967293, 3221225471)]
-        [TestCase(43261596, 964176192)]
-        public void ReverseBitsMethod(uint x, uint expected)
+        public void ReverseBitsMethod_1()
         {
-            uint @in = (uint)x;
-            var actual = ReverseBits.ReverseBitsMethod(@in);
+            UInt32 expected = 3221225471;
+            var actual = ReverseBits.ReverseBitsMethod(4294967293);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void ReverseBitsMethod_2()
+        {
+            UInt32 expected = Convert.ToUInt32(43261596);
+            var actual = ReverseBits.ReverseBitsMethod(964176192);
             Assert.AreEqual(expected, actual);
         }
     }
