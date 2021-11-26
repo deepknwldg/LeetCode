@@ -3,7 +3,7 @@ using Tasks.Easy.PalindromeNumber;
 
 namespace Tests.Easy.PalindromeNumberTests
 {
-    public class Tests
+    public class PalindromeNumberTests
     {
         const int MAX_INT = int.MaxValue;
 
