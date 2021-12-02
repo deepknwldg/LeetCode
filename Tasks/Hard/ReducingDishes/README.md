@@ -1,4 +1,5 @@
 # Reducing Dishes
+
 ```
 A chef has collected data on the satisfaction level of his n dishes. Chef can cook any dish in 1 unit of time.
 
@@ -8,9 +9,9 @@ Return the maximum sum of like-time coefficient that the chef can obtain after d
 
 Dishes can be prepared in any order and the chef can discard some dishes to get this maximum value.
 ```
- 
 
 ## Example 1:
+
 ```
 Input: satisfaction = [-1,-8,0,5,-9]
 Output: 14
@@ -19,24 +20,30 @@ Each dish is prepared in one unit of time.
 ```
 
 ## Example 2:
+
 ```
 Input: satisfaction = [4,3,2]
 Output: 20
 Explanation: Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)
 ```
+
 ## Example 3:
+
 ```
 Input: satisfaction = [-1,-4,-5]
 Output: 0
 Explanation: People don't like the dishes. No dish is prepared.
 ```
+
 ## Example 4:
+
 ```
 Input: satisfaction = [-2,5,-1,0,3,-3]
 Output: 35
- ```
+```
 
 ## Constraints:
+
 ```
 n == satisfaction.length
 1 <= n <= 500
